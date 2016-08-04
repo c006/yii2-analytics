@@ -27,7 +27,7 @@ to the require section of your `composer.json` file.
 Setup
 -----
 
-Add `_[my-tracker].php ` to ` \c006\analytics\views\`
+Add `_[my-tracker].php ` to `\c006\analytics\views\`
 
 Then add `include "_[my-tracker].php";` to ` \c006\analytics\views\index.php`
 
@@ -41,6 +41,11 @@ views/layouts/`[my-layout].php`
     <?= \c006\analytics\Analytics::widget() ?>
     </body>
 
+
+Skip tracking
+`\c006\analytics\Analytics.php`
+>
+    private $skip = ['108.11.100.136','108.11.100.140'];
 
 
 Comments / Suggestions / Help
