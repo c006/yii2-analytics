@@ -2,6 +2,9 @@ Yii2  Analytics
 ===================
 
 
+Simple way to organize analytics and tracking.
+
+
 Installation
 ------------
 
