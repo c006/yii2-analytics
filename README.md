@@ -26,11 +26,12 @@ Setup
 
 Add `_[my-tracker].php ` to ` \c006\analytics\views\`
 
+Then add `include "_[my-tracker].php";` to ` \c006\analytics\views\index.php`
 
 Usage
 -----
 
-views/layouts/my-layout.php
+views/layouts/`[my-layout].php`
 >
     ...
     ...
