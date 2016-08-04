@@ -9,7 +9,7 @@ class Analytics extends Widget
 {
 
     /* IP Addresses to skip analytics */
-    private $skip = ['108.13.103.136'];
+    private $skip = [''];
 
     function run()
     {

@@ -1,7 +1,7 @@
 <!-- Begin Inspectlet Embed Code -->
 <script type="text/javascript" id="inspectletjs">
     window.__insp = window.__insp || [];
-    __insp.push(['wid', 1994566119]);
+    __insp.push(['wid', <?= 'CODE HERE' ?>]);
     (function () {
         function ldinsp() {
             if (typeof window.__inspld != "undefined") return;
